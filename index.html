@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/src/output.css" />
+    <title>Frontend Mentor | FAQ accordion</title>
+  </head>
+  <body class="font-work-sans bg-light-pink">
+    <main class="w-full relative flex items-center justify-center">
+      <section class="overflow-hidden h-[320px] w-full z-10">
+        <img
+          src="./assets/images/background-pattern-mobile.svg"
+          alt="mobile-background"
+          class="object-cover w-full lg:hidden"
+        />
+        <img
+          src="./assets/images/background-pattern-desktop.svg"
+          alt="desktop-background"
+          class="object-cover w-full"
+        />
+      </section>
+      <section
+        class="absolute pt-4 px-2 top-44 right-8 left-8 rounded-lg overflow-hidden bg-white z-20 lg:max-w-[600px] md:max-w-[450px] md:mx-auto lg:mx-auto"
+      >
+        <div class="bg-white w-full">
+          <div class="flex items-center gap-3">
+            <img
+              class="object-cover scale-[60%]"
+              src="./assets/images/icon-star.svg"
+              alt=""
+            />
+            <h1 class="text-3xl font-700">FAQs</h1>
+          </div>
+        </div>
+        <div class="pl-4 pt-6">
+          <div class="flex items-center gap-12">
+            <p
+              class="question font-700 pr-20 cursor-pointer hover:text-purple-500"
+            >
+              What is Frontend Mentor, and how will it help me?
+            </p>
+            <img
+              src="./assets/images/icon-plus.svg"
+              alt="icon-plus"
+              class="plus-icon hidden absolute right-[20px] cursor-pointer"
+            /><img
+              src="./assets/images/icon-minus.svg"
+              alt="icon-minus"
+              class="minus-icon absolute right-[20px] cursor-pointer"
+            />
+          </div>
+          <p class="answer py-5 pr-5 font-400 text-grayish-purple">
+            Frontend Mentor offers realistic coding challenges to help
+            developers improve their frontend coding skills with projects in
+            HTML, CSS, and JavaScript. It's suitable for all levels and ideal
+            for portfolio building.
+          </p>
+        </div>
+        <hr class="mt-5" />
+        <div class="pl-4 pt-6">
+          <div class="flex items-center gap-12">
+            <p
+              class="question font-700 pr-20 cursor-pointer hover:text-purple-500"
+            >
+              Is Frontend Mentor free?
+            </p>
+            <img
+              src="./assets/images/icon-plus.svg"
+              alt="icon-plus"
+              class="plus-icon hidden absolute right-[20px] cursor-pointer"
+            /><img
+              src="./assets/images/icon-minus.svg"
+              alt="icon-minus"
+              class="minus-icon absolute right-[20px] cursor-pointer"
+            />
+          </div>
+          <p class="answer py-5 pr-5 font-400 text-grayish-purple">
+            Yes, Frontend Mentor offers both free and premium coding challenges,
+            with the free option providing access to a range of projects
+            suitable for all skill levels.
+          </p>
+        </div>
+        <hr class="mt-5" />
+        <div class="pl-4 pt-6">
+          <div class="flex items-center gap-12">
+            <p
+              class="question font-700 pr-20 cursor-pointer hover:text-purple-500"
+            >
+              Can I use Frontend Mentor projects in my portfolio?
+            </p>
+            <img
+              src="./assets/images/icon-plus.svg"
+              alt="icon-plus"
+              class="plus-icon hidden absolute right-[20px] cursor-pointer"
+            /><img
+              src="./assets/images/icon-minus.svg"
+              alt="icon-minus"
+              class="minus-icon absolute right-[20px] cursor-pointer"
+            />
+          </div>
+          <p class="answer py-5 pr-5 font-400 text-grayish-purple">
+            Yes, you can use projects completed on Frontend Mentor in your
+            portfolio. It's an excellent way to showcase your skills to
+            potential employers!
+          </p>
+        </div>
+        <hr class="mt-5" />
+        <div class="pl-4 pt-6">
+          <div class="flex items-center gap-12">
+            <p
+              class="question font-700 pr-20 cursor-pointer hover:text-purple-500"
+            >
+              How can I get help if I'm stuck on a Frontend Mentor challenge?
+            </p>
+            <img
+              src="./assets/images/icon-plus.svg"
+              alt="icon-plus"
+              class="plus-icon hidden absolute right-[20px] cursor-pointer"
+            /><img
+              src="./assets/images/icon-minus.svg"
+              alt="icon-minus"
+              class="minus-icon absolute right-[20px] cursor-pointer"
+            />
+          </div>
+          <p class="answer py-5 pr-5 font-400 text-grayish-purple">
+            The best place to get help is inside Frontend Mentor's Discord
+            community. There's a help channel where you can ask questions and
+            seek support from other community members.
+          </p>
+        </div>
+        <hr class="mt-5" />
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
